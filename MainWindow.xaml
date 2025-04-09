@@ -1,0 +1,43 @@
+﻿<Window x:Class="TaskSolver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Task Solver" Height="600" Width="800">
+    <Grid>
+        <ComboBox x:Name="TaskComboBox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="300" SelectionChanged="TaskComboBox_SelectionChanged">
+            <ComboBoxItem Content="Task 1: Sum of Squares vs Square of Sum"/>
+            <ComboBoxItem Content="Task 2: Salary Bonus"/>
+            <ComboBoxItem Content="Task 3: Farthest Point from Origin"/>
+            <ComboBoxItem Content="Task 4: Right-Angled Triangle"/>
+            <ComboBoxItem Content="Task 5: Square Positive Numbers"/>
+            <ComboBoxItem Content="Task 6: Determine Quadrant"/>
+            <ComboBoxItem Content="Task 7: Point Inside Circle"/>
+            <ComboBoxItem Content="Task 8: Largest Triangle Area"/>
+            <ComboBoxItem Content="Task 9: Compare Square and Circle Area"/>
+            <ComboBoxItem Content="Task 10: Cube Positive Numbers"/>
+            <ComboBoxItem Content="Task 11: Even or Ends with 3"/>
+            <ComboBoxItem Content="Task 12: Point in First Quadrant"/>
+            <ComboBoxItem Content="Task 13: Deposit Interest"/>
+            <ComboBoxItem Content="Task 14: Difference of Squares"/>
+            <ComboBoxItem Content="Task 15: Closest Point to Origin"/>
+            <ComboBoxItem Content="Task 16: Point Inside Torus"/>
+            <ComboBoxItem Content="Task 17: Point in Fourth Quadrant"/>
+            <ComboBoxItem Content="Task 18: Isosceles Triangle"/>
+            <ComboBoxItem Content="Task 19: Pythagorean Triple"/>
+            <ComboBoxItem Content="Task 20: Compare Flow Rates"/>
+            <ComboBoxItem Content="Task 21: Fit Circle in Square"/>
+            <ComboBoxItem Content="Task 22: Compare Densities"/>
+            <ComboBoxItem Content="Task 23: Compare Speeds"/>
+            <ComboBoxItem Content="Task 24: Fit Circle in Triangle"/>
+            <ComboBoxItem Content="Task 25: Compare Currents"/>
+            <ComboBoxItem Content="Task 26: Compare Gravitational Acceleration"/>
+            <ComboBoxItem Content="Task 27: Determine Time of Day"/>
+            <ComboBoxItem Content="Task 28: Determine Hemisphere"/>
+            <ComboBoxItem Content="Task 29: Compare Star Distances"/>
+            <ComboBoxItem Content="Task 30: Even or Ends with 7"/>
+        </ComboBox>
+        <StackPanel x:Name="InputPanel" Margin="10,50,10,10">
+          
+        </StackPanel>
+        <TextBlock x:Name="ResultTextBlock" Margin="10,400,10,10" TextWrapping="Wrap"/>
+    </Grid>
+</Window>
